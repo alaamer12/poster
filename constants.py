@@ -1,0 +1,60 @@
+# Object Keys with Improved Naming in Snake Case Style
+schedule_keys = {
+    "name": None,
+    "code": "<no-input>",
+    "description": "<optional>",
+    "notes": "<optional>",
+    "task_name": "<optional>",
+    "tags": None,
+    "projects": None,
+    "max_score": None,
+    "adherence_time": None,
+    "completion_percentage": None,
+    "repeated": None,
+    "creation_date": "<no-input>",
+    "update_date": "<no-input>",
+    "id": "<no-input>",
+    "obtained_score": "<no-input>",
+    "adherence_rate": "<no-input>",
+    "max_time": "<no-input>",
+    "obtained_time": "<no-input>",
+    "priority_weight": None,
+    "duration": "<no-input>",
+    "leaps": None,
+    "status": None,
+    "task_counter": "<no-input>",
+    "leap_counter": "<no-input>",
+    "user_access_level": None,
+    "stats_functions": "<no-input>",
+    "task_badge": "<no-input>",
+    "due_date": None,
+    "completion_date": None,
+    "task_quality": "<no-input>",
+    "health": "<optional>",  # unchanged, get worse, get better
+    "missing_counter": "<no-input>",
+    "badge_counter": "<no-input>",
+    "total_badge": "<no-input>",
+    "relation_with_project": "<optional>",
+    "log_functions": "<optional>",
+    "abondence": "<no-input>",
+    "abondence_counter": "<no-input>",
+    "archived": "<no-input>",
+    "archived_counter": "<no-input>",
+    "username": "<no-input>",
+    "Task Constraints": "<no-input>",
+    "history": "<no-input>",
+    # "location": None,
+    # "deadline": None,
+    # "deadline_counter": None,
+    # "feedback": "<optional>",
+    # "streak": "<optional>", "<no-input>",
+    # "project_degrees_stats": None,
+    # "environment": None,
+    # "adherence_percentage": "<no-input>"
+}
+
+# Example Usage
+print(schedule_keys["name"])  # None
+print(schedule_keys["tags"])  # None
+print(schedule_keys["max_score"])  # None
+print(schedule_keys["creation_date"])  # "<no-input>"
